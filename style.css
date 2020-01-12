@@ -8,18 +8,6 @@ body {
     color: #222;
 }
 
-hr.kop {
-    border-color: #007bff;
-}
-
-h1.kop {
-    color: #007bff;
-}
-
-.filler {
-    margin: 4em 0;
-}
-
 .navbar {
     padding: .8rem;
 }
