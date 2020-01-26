@@ -116,7 +116,7 @@ h3.description {
     border-radius: 1em;
     height: 27rem;
     padding: 2em;
-    margin: 6.25rem 5rem 15.625rem 5rem;
+    margin: 6.25rem 2rem 15.625rem 2rem;
 }
 
 h4.block-kop {
@@ -144,4 +144,27 @@ p.block-text-wit {
 
 p.lead2 {
     margin: 0 auto 2.5rem auto;
+}
+
+.block2 {
+    border-radius: 1em;
+    padding: 1em;
+    margin: 6.25rem 2rem 6.25rem 2rem;
+}
+
+h4.block-kop-active {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h4.block-kop-nonactive {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #565656;
+}
+
+.text-box {
+    width: 65%;
+    margin: 0 auto;
 }
