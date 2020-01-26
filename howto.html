@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+<meta charset="utf-8"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title>Origami Studio</title> 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
+<link href="style.css" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: rgb(226, 226, 226);">
+        <a class="navbar-brand" href="#"><img src="img/origami_logo_blauw.png" width="40" alt="Origami Studio"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active-link" href="#">How To <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Exercises</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--- Text Section 1 -->
+      <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4 kop2" style="font-weight: 600">How to.</h1>
+                </div>
+                <div class="col-12">
+                    <p class="lead2" style="font-weight: 700; color: #565656;">Origami has an easy to learn, hard to master system. The basic principles are pretty straight forward, but making complex interactions could be.. complex. We’ll walk you through the basics.</p>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 90%; border-color: #33a0ac; border-width: 2px;">
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                        <h1 class="display-4 kop2" style="font-weight: 600">The interface.</h1>
+                        <img src="img/interface.jpg" style="width: 900px; padding: 0 0 4rem 0;">
+                        <div class="col-12">
+                                <p style="color: #565656; padding-bottom: 3rem;">First things first. The interface is the most important part to understand about any piece of software.<br><br>
+                                    <span style="font-weight: 700;">1.</span> This is your preview panel. Just like in most design tools, it shows you everything you’ve pasted in the layer panel. Dimensions can vary.<br><br>
+                                    <span style="font-weight: 700;">2.</span> So here’s your ‘block editor’. Compare this to a timeline. Here you will use blocks to chronologically describe what will happen to the content in the preview frame. Example (in blocks): Tap > animate > change state.<br><br>
+                                    <span style="font-weight: 700;">3.</span> This is your side panel. Like most design software nowadays, Origami makes sure you can change the properties and place of a layer.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Core Concepts Section -->
+        <div class="container-fluid padding" style="background-color: #33a0ac;">
+                <div class="row bullets text-center padding"> 
+                        <div class="col-xs-12 col-sm-6 col-md-6">  
+                            <h3 style="padding-top: 5rem; color: #ffffff; font-weight: 600;">The interaction.</h3>
+                            <p style="padding: 2rem 5rem; color: #ffffff">You always start by deciding the type of interaction. As our example shows, there are a variety of interactions available. Mostly based on touch inputs. When designing for desktop you’ll find the hover interaction to also be available. For obvious reasons, right? The interaction is linked directly to the layer you select.</p>
+                            <img src="img/interaction.png" style="width: 50%;">
+                        </div> 
+                        <div class="col-xs-12 col-sm-6 col-md-6">  
+                            <h3 style="padding-top: 5rem; color: #ffffff; font-weight: 600;">The block.</h3>
+                            <p style="padding: 2rem 5rem; color: #ffffff">Once you’ve decided on the type of interaction, all that rests is to make an action. This can be straightforward, like a pop up. Or it could be a sequence of animations and other movement within a screen. Link up different types of blocks to get different outcomes! </p>
+                            <img src="img/block.png" style="width: 50%;">
+                        </div> 
+                </div>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="container-fluid padding">
+                    <div class="row welcome text-center">
+                        <div class="col-12">
+                                <h1 style="font-weight: 600; color: #33a0ac;">And eventually you'd probably get something that looks like this.</h1>
+                                <img src="img/overview_visual.jpg" style="width: 900px; padding: 4rem 0;">
+                                <h1 style="color: #33a0ac; padding-bottom: 2rem;">For a full run-down visit:</h1>
+                                <h1 style="font-weight: 600; color: #33a0ac; padding-bottom: 12.5rem;"><a href="https://origami.design/documentation/" target="_blank">https://origami.design/documentation/</a></h1>
+                        </div>
+                    </div>
+                </div>
+
+        <!--- Footer -->
+        <div class="container-fluid padding" style="background-color: #565656; height: 5rem;">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <p style="color: #ffffff; padding-top: 2rem;">Wouter Haenen & Jonathan van Arkel</p>
+                    </div>  
+                </div>
+        </div>
+
+</body>
+
+</html>
