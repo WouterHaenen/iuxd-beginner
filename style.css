@@ -173,7 +173,7 @@ h4.block-kop-nonactive {
     border-radius: 10px;
     background-color: #33a0ac;
     color: #ffffff;
-    width: fit-content;
+    display: inline-block;
     padding: 15px 25px;
     margin: 0 auto 6.25rem auto;
 }
