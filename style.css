@@ -168,3 +168,27 @@ h4.block-kop-nonactive {
     width: 65%;
     margin: 0 auto;
 }
+
+.knop {
+    border-radius: 10px;
+    background-color: #33a0ac;
+    color: #ffffff;
+    width: fit-content;
+    padding: 15px 25px;
+    margin: 0 auto 6.25rem auto;
+}
+
+.knop:hover {
+    background-color: #0991ff;
+    cursor: pointer;
+}
+
+.knop-tekst {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.knop-tekst:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
